@@ -57,3 +57,56 @@ Source: Kaggle – Crimes Against Women Dataset
 ```bash
 git clone https://github.com/MV0278/AISafeSpot.git
 cd AISafeSpot
+```
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run backend
+```bash
+cd backend
+uvicorn api:app --reload
+```
+
+### Run frontend
+```bash
+cd frontend
+streamlit run app.py
+```
+
+---
+
+## Project Structure
+```
+AI-SafeSpot/
+│
+├── backend/
+│   └── api.py
+│
+├── frontend/
+│   └── app.py
+│
+├── model/
+│   └── safety_model.pkl
+│
+├── notebooks/
+│   └── train_model.ipynb
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Future Improvements
+- Integration with real-time crime data APIs  
+- Location-based live risk prediction  
+- Improved machine learning model accuracy  
+- Deployment for public access  
+
+---
+
+## Conclusion
+AI SafeSpot demonstrates how machine learning and data analysis can be applied to address real-world safety concerns. The system provides meaningful insights and supports better awareness and decision-making.
