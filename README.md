@@ -105,8 +105,10 @@ AI-SafeSpot/
 - Location-based live risk prediction  
 - Improved machine learning model accuracy  
 - Deployment for public access  
-
 ---
+## Demo
+
+https://www.veed.io/view/2b041142-fc4a-4a11-811d-ff12ba47459f?panel=share
 
 ## Conclusion
 AI SafeSpot demonstrates how machine learning and data analysis can be applied to address real-world safety concerns. The system provides meaningful insights and supports better awareness and decision-making.
