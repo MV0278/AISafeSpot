@@ -108,7 +108,7 @@ AI-SafeSpot/
 ---
 ## Demo
 
-https://www.veed.io/view/51ca9eea-30ae-429c-b9b7-70661a119ed4?source=editor&panel=share
+https://vimeo.com/1175402953?share=copy&fl=sv&fe=ci
 
 ## Conclusion
 AI SafeSpot demonstrates how machine learning and data analysis can be applied to address real-world safety concerns. The system provides meaningful insights and supports better awareness and decision-making.
