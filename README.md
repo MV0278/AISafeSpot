@@ -1,114 +1,32 @@
-# AI SafeSpot: Women Safety Risk Predictor
+# AI SafeSpot – Women Safety Risk Prediction System
 
 ## Overview
-AI SafeSpot is an AI-powered system that predicts women safety risk levels using crime data. It analyzes multiple crime factors and generates a risk score to help users understand safety conditions across regions.
+
+AI SafeSpot is a machine learning-based system that predicts women safety risk using crime statistics. It helps identify high-risk areas and provides insights through an interactive dashboard with real-time predictions and visualizations.
 
 ---
 
 ## Features
-- Predicts safety risk (Low / Moderate / High)
-- Visualizes crime data trends
-- Interactive safety map
-- High-risk state analysis
-- Real-time prediction using API
 
----
-
-## How It Works
-1. User inputs crime statistics or selects a state  
-2. Frontend sends data to backend via API  
-3. Backend processes data using machine learning logic  
-4. Risk score (0–1) is generated  
-5. Results are displayed with visual insights  
+- Predicts safety risk based on crime data
+- Classifies risk as Low, Moderate, or High
+- Interactive user interface for input and analysis
+- Visualizations including charts and safety map
+- Supports both manual input and state-based analysis
 
 ---
 
 ## Tech Stack
-- Frontend: Streamlit  
-- Backend: FastAPI  
-- Machine Learning: Scikit-learn  
-- Data Processing: Pandas, NumPy  
-- Visualization: Plotly, Matplotlib, Seaborn  
-- Maps: Folium  
 
----
-
-## Dataset
-The dataset contains crime statistics related to women safety in India.
-
-Source: Kaggle – Crimes Against Women Dataset  
-(Note: Dataset is not included due to size constraints)
-
----
-
-## Risk Score Interpretation
-
-| Score Range | Risk Level |
-|------------|-----------|
-| 0 – 0.3    | Low Risk |
-| 0.3 – 0.6  | Moderate Risk |
-| 0.6 – 1.0  | High Risk |
-
----
-
-## Installation & Setup
-
-### Clone the repository
-```bash
-git clone https://github.com/MV0278/AISafeSpot.git
-cd AISafeSpot
-```
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Run backend
-```bash
-cd backend
-uvicorn api:app --reload
-```
-
-### Run frontend
-```bash
-cd frontend
-streamlit run app.py
-```
+- Python
+- Scikit-learn (Machine Learning)
+- FastAPI (Backend API)
+- Streamlit (Frontend UI)
+- Pandas, NumPy (Data Processing)
+- Matplotlib, Seaborn, Plotly (Visualization)
+- Folium (Map Visualization)
+- Jupyter Notebook (Model Training)
 
 ---
 
 ## Project Structure
-```
-AI-SafeSpot/
-│
-├── backend/
-│   └── api.py
-│
-├── frontend/
-│   └── app.py
-│
-├── model/
-│   └── safety_model.pkl
-│
-├── notebooks/
-│   └── train_model.ipynb
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Future Improvements
-- Integration with real-time crime data APIs  
-- Location-based live risk prediction  
-- Improved machine learning model accuracy  
-- Deployment for public access  
----
-## Demo
-
-https://vimeo.com/1175402953?share=copy&fl=sv&fe=ci
-
-## Conclusion
-AI SafeSpot demonstrates how machine learning and data analysis can be applied to address real-world safety concerns. The system provides meaningful insights and supports better awareness and decision-making.
