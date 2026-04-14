@@ -105,14 +105,6 @@ http://localhost:8501
 * Advanced ML models for higher accuracy
 * Interactive heatmap visualization
 
-## Demo
 
-Add your YouTube demo video link here
 
-## Author
 
-Developed individually as a full-stack AI/ML project
-
-## License
-
-This project is for educational and hackathon purposes
